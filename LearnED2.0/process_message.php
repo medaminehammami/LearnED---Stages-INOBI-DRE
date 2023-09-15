@@ -1,6 +1,6 @@
 <?php
 
-$api_key = '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';
+$api_key = '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';
 
 // Get the user message from the request
 $data = json_decode(file_get_contents('php://input'));

@@ -1,6 +1,6 @@
 <?php
 
-$API_KEY = 'AIzaSyAwS23mMa5LH32gCNHxCBrnAwlNycypiWc';
+$API_KEY = 'AIzaSyBsmK3dB0MczXO0Vfe4k9WLtoZO4NpdYzc';
 
 $data = json_decode(file_get_contents('php://input'));
 $user_course = $data->selectedCourse;
