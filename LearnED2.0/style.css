@@ -163,31 +163,6 @@ a, button {
     cursor: pointer;
 }
 
-.side-menu {
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: #333;
-    transition: right 0.3s ease-in-out;
-}
-
-.side-menu ul {
-    list-style-type: none;
-    padding: 20px;
-}
-
-.side-menu ul li {
-    margin-bottom: 10px;
-}
-
-.side-menu ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
 
 /*Common things in all sections*/
 #about_section, #portfolio_section, #team_section, #services_section, #contactus_section {

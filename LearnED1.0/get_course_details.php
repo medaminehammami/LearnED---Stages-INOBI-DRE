@@ -3,7 +3,6 @@
 <head>
     <title>Display Courses</title>
     <style>
-        /* Define your CSS styles here */
         #courseDetails {
             background-color: #f7f7f7;
             padding: 20px;
@@ -33,25 +32,20 @@
 if (isset($_GET['course'])) {
     $selectedCourse = $_GET['course'];
 
-    // Database connection settings
     $servername = "localhost";
     $username = "root";
     $password = "";
     $dbname = "courses";
 
-    // Create a new connection
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Check the connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Query the database to fetch course details based on the selected course
     $query = "SELECT * FROM courses WHERE name = '$selectedCourse'";
     $result = $conn->query($query);
 
-    // Display courses data as HTML
     if ($row = $result->fetch_assoc()) {
         echo "<div id='courseDetails'>";
         echo "<h2>{$row['name']}</h2>";
@@ -62,10 +56,8 @@ if (isset($_GET['course'])) {
         echo "<p>write down your answers then check if they are correct :</p>";
         echo "<p class='question'>" . nl2br($row['question']) . "</p>";
         echo "</div>";
-        // ... You can format and display other data fields
+       
     }
-
-    // Close the database connection
     $conn->close();
 }
 ?>
