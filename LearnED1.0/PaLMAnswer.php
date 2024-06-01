@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$API_KEY = 'AIzaSyBsmK3dB0MczXO0Vfe4k9WLtoZO4NpdYzc';
+$API_KEY = 'xx';
 
 $data = json_decode(file_get_contents('php://input'));
 $bot_quiz = $data->bot_quiz;
