@@ -8,3 +8,4 @@ Install XAMPP and import the Database to beable to view the websites Databases a
 LearnED 1.0  http://localhost/LearnED1.0/index.php
 LearnED 2.0  http://localhost/LearnED2.0/index.php
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/wp3Pff7"  ><a href="//imgur.com/a/wp3Pff7"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
