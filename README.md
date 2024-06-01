@@ -8,4 +8,5 @@ Install XAMPP and import the Database to beable to view the websites Databases a
 LearnED 1.0  http://localhost/LearnED1.0/index.php
 LearnED 2.0  http://localhost/LearnED2.0/index.php
 
-[![Watch the video]([https://i.imgur.com/YOUR_IMGUR_IMAGE_ID.jpg](https://i.imgur.com/Bvpwf2u.png))]
+![LearnED Platform](https://i.imgur.com/Bvpwf2u.png)
+
