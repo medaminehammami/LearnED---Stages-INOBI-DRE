@@ -1,6 +1,6 @@
 <?php
 
-$api_key = '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';
+$api_key = 'xxx';
 
 $data = json_decode(file_get_contents('php://input'));
 $user_subchapter = $data->subchapter;
